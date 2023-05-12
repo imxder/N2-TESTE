@@ -1,0 +1,14 @@
+# executar o teste unitario:
+
+pytest test_unit.py
+
+# executar teste integrado:
+
+pytest test_int.py
+
+# execução do pytest coverage:
+
+
+pytest --cov=src --cov-report=html tests/
+
+
