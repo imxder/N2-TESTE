@@ -9,6 +9,6 @@ pytest test_int.py
 # execução do pytest coverage:
 
 
-pytest --cov=src --cov-report=html tests/
+pytest --cov-config=.coveragerc --cov=src --cov-report=html tests/
 
 
